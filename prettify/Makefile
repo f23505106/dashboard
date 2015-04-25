@@ -15,7 +15,12 @@ YUI_COMPRESSOR=java -jar tools/yui-compressor/yuicompressor-2.4.4.jar \
 
 TAR_ROOT=distrib/google-code-prettify
 
-all: distrib
+all: fgt
+
+
+fgt: distrib
+	@mkdir -p out
+	@cp $(TAR_ROOT)/prettify.* out
 
 clean:
 	rm -rf distrib.tstamp distrib src/prettify.js src/run_prettify.js
