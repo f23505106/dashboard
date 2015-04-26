@@ -31,7 +31,15 @@ line-numbering and the
 (see <code>skin=sunburst</code> in the <code>&lt;script src&gt;</code>)
 specifies that every fifth line should be numbered.
 </p>
-
+<pre class="prettyprint lang-c linenums">
+#include&lt;stdio.h&gt;
+int main(int argc,char* argv[]){
+	for(int i=0;i<0x10;++i){
+		printf("hello world %d",i);
+	}
+	return 0;
+}
+</pre>
 <!-- Language hints can be put in XML application directive style comments. -->
 <?prettify lang=html linenums=true?>
 <pre class="prettyprint" id="quine" style="border:4px solid #88c"></pre>
