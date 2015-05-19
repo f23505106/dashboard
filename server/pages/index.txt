@@ -1,0 +1,22 @@
+# Markdown Website
+
+This file is `pages/index.txt`, converted to HTML using Python-Markdown.
+
+Here is a link to [another page](other).
+
+* hello
+* world
+
+sdfsdf
+
+	:::c++
+	#include<stdio.h>
+	int main(){
+		int x=0;
+		for(int i=0;i<0;++i){
+			printf("hello world!");
+		}
+	}
+
+
+

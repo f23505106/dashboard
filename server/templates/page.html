@@ -1,0 +1,24 @@
+$def with (content)
+<!doctype html>
+<html>
+  <head>
+    <title>Markdown Website</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/codehilite.css">
+    <link href="/static/css/prettify.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/static/css/prettify.js"></script>
+  </head>
+  <body onload="prettyPrint()">
+    $:content
+
+<?prettify?>
+<pre class="prettyprint">
+#include <stdio.h>
+int main(){
+	int x=0;
+	for(int i=0;i<0;++i){
+		printf("hello world!");
+	}
+}
+</pre>
+  </body>
+</html>
